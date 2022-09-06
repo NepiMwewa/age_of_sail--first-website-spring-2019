@@ -1,0 +1,354 @@
+/*for style and color*/
+	body {
+		color: #282845;
+		background: #4373a1;
+		/*backup background*/
+		background: -webkit-linear-gradient(#4373a1, #282845);
+		background: -o-linear-gradient(#4373a1, #282845);
+		background: -moz-linear-gradient(#4373a1, #282845);
+		background: linear-gradient(#4373a1, #282845);
+		/*repeating tiles*/
+		background: url(../images/top_tile.png) left top repeat-x, url(../images/floor_tile.png) left bottom repeat-x, url(../images/ocean_tile.png) left top repeat;
+		background-size: 64px, 64px, 64px;
+		font-family: Arial, sans-serif;
+		font-size: 16px;
+	}
+	#types{
+	}
+	#roles{
+	}
+	#weaponry{
+	}
+	#tactics{
+	}
+	#feedback{
+	}
+	#wrapper{
+		background-color: #56a0bf;
+		border-style: solid;
+		border-width: 2px;
+		border-color: #282845;
+		box-shadow: 0px 0px 5px 4px #282845;
+	}
+	h1 {
+		font-family: algerian, impact, fantasy;
+		font-size: 32px;
+		text-align: center;
+		color: #cec9bb;
+		text-shadow: 2px 2px 5px #312738;
+		letter-spacing: 3px;
+	}
+	h2 {
+		font-family: times, serif;
+		font-size: 24px;
+		text-align: center;
+		color: #cec9bb;
+		text-shadow: 2px 2px 5px #312738;
+	}
+	h3 {
+		font-family: times, serif;
+		font-size: 18px;
+		text-align: center;
+		color: #cec9bb;
+		text-shadow: 2px 2px 5px #312738;
+	}
+	h4 {
+		font-family: times, serif;
+	}
+	p {
+		line-height: 1.5em;
+	}
+	p.copyright{
+		font-size: 12px;
+		font-style: oblique;
+		font-weight: lighter;
+	}
+	ul{
+		list-style-image: url('../images/bullet.png');
+	}
+	dt {
+		color: #cec9bb;
+		text-shadow: 2px 2px 5px #312738;
+	}
+	dd {
+		line-height: 1.5em;
+	}
+	dfn {
+		font-weight: bold;
+	}
+	blockquote{
+		margin-left: 24px;
+		margin-right: 8px;
+		border-style: solid;
+		border-width: 0px 0px 0px 2px;
+		border-color: #cec9bb;
+	}
+	em {
+		font-style: italic;
+		font-weight: 600;
+	}
+	hr.label{
+		margin-left: 150px;
+		clear: left;
+		border-style: solid;
+		border-color: #cec9bb;
+	}
+/*table*/
+	table{
+		color: #cec9bb;
+		background-color: #3e6499;
+		border-style: solid;
+		border-width: 2px;
+		border-color: #312738;
+		border-spacing: 4px 4px;
+		/*border-collapse: collapse;*/
+	}
+	tr{
+	}
+	tr.odd{
+		background-color: #35598c;
+	}
+	tr:hover,
+	tr.odd:hover{
+		background-color: #4373a1;
+	}
+	th{
+		padding: 4px;
+		text-align: left;
+		empty-cells: hide;
+		border-style: outset;
+		border-width: 2px;
+		border-color: #cec9bb;
+	}
+	th.leading{
+		text-align: center;
+		font-size: 18px;
+		font-weight: bold;
+		text-shadow: 2px 2px 5px #312738;
+	}
+	td.shipname{
+		font-style: italic;
+	}
+	td{
+		padding: 4px;
+		text-align: center;
+		empty-cells: show;
+	}
+	/*end of table*/
+/*form*/
+	fieldset{
+		background-color: #4373a1;
+	}
+	fieldset fieldset{
+		background-color: #56a0bf;
+	}
+	legend {
+		padding: 8px;
+		font-size: 18px;
+		border-style: solid;
+		border-width: 1px;
+		border-radius: 4px;
+		color: #cec9bb;
+		text-shadow: 2px 2px 5px #312738;
+		background: -webkit-linear-gradient(180deg, #56a0bf,  #4373a1);
+		background: -o-linear-gradient(180deg, #56a0bf,  #4373a1);
+		background: -moz-linear-gradient(180deg, #56a0bf,  #4373a1);
+		background: linear-gradient(180deg, #56a0bf,  #4373a1);
+	}
+	legend.alt{
+		padding: 4px;
+		font-size: 16px;
+		border-radius: 8px;
+	}
+	input:focus{
+		border-color: #5e4f56;
+	}
+	input#submit,
+	input#clear{
+		padding: 4px;
+		font-size: 16px;
+		font-weight: bold;
+		border-style: outset;
+		border-width: 2px;
+		border-radius: 4px;
+		text-shadow: 2px 2px 5px #312738;
+		color: #cec9bb;
+		cursor: pointer;
+		background: #a68253;
+		background: -webkit-linear-gradient(180deg, #a68253,  #875e34);
+		background: -o-linear-gradient(180deg, #a68253,  #875e34);
+		background: -moz-linear-gradient(180deg, #a68253,  #875e34);
+		background: linear-gradient(180deg, #a68253,  #875e34);
+	}
+	input#submit:active,
+	input#clear:active{
+		background: #875e34;
+		background: -webkit-linear-gradient(180deg, #875e34,  #61331e);
+		background: -o-linear-gradient(180deg, #875e34,  #61331e);
+		background: -moz-linear-gradient(180deg, #875e34,  #61331e);
+		background: linear-gradient(180deg, #875e34,  #61331e);
+	}
+	input#submit{
+		float: left;
+	}
+	input#clear{
+		float: right;
+	}
+
+	/*end of form*/
+/*links*/
+	a {
+		font-weight: bold;
+		text-decoration: none;
+	}
+	a:link{
+		color: #cec9bb;
+	}
+	a:visited{
+		color: #704056;
+	}
+	a:hover{
+		color: #cfa84a;
+		text-decoration: underline;
+	}
+	a:active{
+		color: #704056;
+	}
+/*header*/
+	header{
+		background-color: #282845;
+		border-style: outset;
+		border-width: 2px;
+		background: -webkit-radial-gradient(#264c81, #282845);
+		background: -o-radial-gradient(#264c81, #282845);
+		background: -moz-radial-gradient(#264c81, #282845);
+		background: radial-gradient(#264c81, #282845);
+	}
+	/*end of header*/
+/*nav*/
+	nav{
+		border-style: solid;
+		border-width: 0px 0px 2px 0px;
+		border-color: #282845;
+	}
+	nav ul{
+		list-style-type: none;
+		list-style-image: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #5e4f56;
+	}
+	nav li{
+		float: left;
+	}
+	nav a{
+		display: block;
+		font-size: 16px;
+		font-style: normal;
+		text-decoration: none;
+		text-align: center;
+		width: 187px;
+		padding: 8px 0px;
+		border-style: outset;
+		border-width: 2px;
+		border-radius: 4px;
+		text-shadow: 2px 2px 5px #312738;
+		background: -webkit-linear-gradient(180deg, #5e4f56, #4c344c);
+		background: -o-linear-gradient(180deg, #5e4f56, #4c344c);
+		background: -moz-linear-gradient(180deg, #5e4f56, #4c344c);
+		background: linear-gradient(180deg, #5e4f56, #4c344c);
+	}
+	nav a:link,
+	a.to_top:link,
+	address>a:link,
+	nav a:visited,
+	a.to_top:visited,
+	address>a:visited{
+		color: #cec9bb;
+	}
+	nav a:hover{
+		color: #cfa84a;
+		background: -webkit-linear-gradient(180deg, #7a7878, #5e4f56);
+		background: -o-linear-gradient(180deg, #7a7878, #5e4f56);
+		background: -moz-linear-gradient(180deg, #7a7878, #5e4f56);
+		background: linear-gradient(180deg, #7a7878, #5e4f56);
+		text-decoration: none;
+	}
+	nav a:active{
+		border-style: inset;
+		color: #8a6262;
+		background: -webkit-linear-gradient(180deg, #4c344c, #392543);
+		background: -o-linear-gradient(180deg, #4c344c, #392543);
+		background: -moz-linear-gradient(180deg, #4c344c, #392543);
+		background: linear-gradient(180deg, #4c344c, #392543);
+	}
+	#types nav .types a,
+	#roles nav .roles a,
+	#weaponry nav .weaponry a,
+	#tactics nav .tactics a,
+	#feedback nav .feedback a{
+		background: -webkit-linear-gradient(180deg, #a68253,  #875e34);
+		background: -o-linear-gradient(180deg, #a68253,  #875e34);
+		background: -moz-linear-gradient(180deg, #a68253,  #875e34);
+		background: linear-gradient(180deg, #a68253,  #875e34);
+		cursor: default;
+	}
+	#types nav .types a:active,
+	#roles nav .roles a:active,
+	#weaponry nav .weaponry a:active,
+	#tactics nav .tactics a:active,
+	#feedback nav .feedback a:active{
+		background: -webkit-linear-gradient(180deg, #875e34,  #61331e);
+		background: -o-linear-gradient(180deg, #875e34,  #61331e);
+		background: -moz-linear-gradient(180deg, #875e34,  #61331e);
+		background: linear-gradient(180deg, #875e34,  #61331e);
+	}
+	/*end of nav*/
+/*back to top link*/
+	a.to_top{
+		font-size: 16px;
+		font-style: normal;
+		padding: 4px;
+		border-style: outset;
+		border-width: 1px;
+		border-radius: 4px;
+		background-color: #5e4f56;
+		text-shadow: 2px 2px 5px #312738;
+		clear: left;
+	}
+	a.to_top:hover,
+	address>a:hover{
+		color: #cfa84a;
+		text-decoration: none;
+	}
+	a.to_top:active,
+	address>a:active{
+		border-style: inset;
+		color: #8a6262;
+		background-color: #4c344c;
+	}
+/*footer*/
+	address {
+		border-style: solid;
+		border-width: 2px 0px 2px 0px;
+		border-color: #282845;
+		font-size: 18px;
+		font-style: oblique;
+	}
+	address:first-line{
+		color: #cec9bb;
+		font-weight: bold;
+		text-shadow: 2px 2px 5px #312738;
+	}
+	address>a{
+		font-size: 16px;
+		font-style: normal;
+		padding: 4px;
+		border-style: outset;
+		border-width: 1px;
+		border-radius: 5px;
+		background-color: #5e4f56;
+		text-shadow: 2px 2px 5px #312738;
+	}
+	/*end of footer*/

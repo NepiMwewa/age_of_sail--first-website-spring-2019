@@ -1,0 +1,139 @@
+/*for layout and margins*/
+	body{
+		width: 960px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 64px;
+		padding-bottom: 64px;
+	}
+	/*forum*/
+	.row_margin{
+		margin-top: 8px;
+		margin-bottom: 8px;
+		clear: left;
+	}
+	.label_width{
+		display: block;
+		width: 150px;
+		float: left;
+	}
+	.group_float{
+		float: left;
+	}
+	/*end forum*/
+	/*column classes*/
+	div.two_column{
+		float: left;
+		width: 472px;
+	}
+	div.three_column{
+		float: left;
+		width: 312px;
+	}
+	div.two_column > p,
+	div.three_column > p{
+		margin: 16px;
+	}
+	div.two_column > h4,
+	div.three_column > h4{
+		text-align: center;
+		margin-left: 0px;
+	}
+	.clear
+	{
+		clear: left;
+	}
+	/*end of column classes*/
+	#types{
+	}
+	#roles{
+	}
+	#weaponry{
+	}
+	#tactics{
+	}
+	#feedback{
+	}
+	#wrapper{
+	}
+	footer{
+		clear: left;
+		margin-top: 8px;
+		text-align: center;
+	}
+	h1{
+		margin-top: 16px;
+		margin-bottom: 16px;
+	}
+	h4{
+		margin-left: 8px;
+	}
+	form{
+		margin: 8px 16px 8px 16px;
+	}
+	fieldset fieldset{
+		margin: 8px 0px 8px 0px;
+	}
+	p {
+		margin-left: 16px;
+		margin-right: 16px;
+	}
+	dt {
+		margin-left: 16px;
+	}
+	dd {
+		margin-right: 8px;
+		margin-bottom: 8px;
+		margin-left: 32px;
+	}
+	blockquote{
+		margin-left: 24px;
+		margin-right: 8px;
+	}
+	table{
+		margin: 16px;
+		padding: 2px;
+	}
+	a.to_top{
+		float: left;
+		display: block;
+		margin-top: 8px;
+		margin-left: 8px;
+	}
+	address{
+		padding: 8px 0px 16px 0px;
+		line-height: 2em;
+	}
+	.director{
+		text-align: center;
+		margin: 8px 16px 8px 16px;
+		line-height: 1.7em;
+	}
+	.cords{
+		text-align: center;
+		margin: 8px 16px 8px 16px;
+		line-height: 1.5em;
+	}
+	/*image flow*/
+	.constitution,
+	.victory{
+		overflow: auto;
+	}
+	img{
+		float: right;
+		margin: 4px;
+		border-style: solid;
+		border-width: 2px;
+		border-color: #282845;
+	}
+	img.rss_logo{
+		border-width: 1px;
+		border-color: #4373a1;
+		margin: 0px;
+	}
+	img.hms_victory{
+		width: 375px;
+	}
+	img.uss_constitution{
+		width: 512px;;
+	}

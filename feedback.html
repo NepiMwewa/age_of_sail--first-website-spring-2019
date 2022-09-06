@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en-us">
+     <head>
+          <meta charset="utf-8">
+          <title>Age of Sail: Feedback</title>
+		  <!-- background and general colors -->
+		  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen"/>
+		  <link href="css/layout.css" type="text/css" rel="stylesheet" media="screen"/>
+		  <link href="css/print_styles.css" type="text/css" rel="stylesheet" media="print"/>
+     </head>
+     <body id="feedback">
+		<div id="wrapper">
+			<header id="#top">
+				<h1>Age of Sail</h1>
+			</header>
+			<nav>
+				<ul>
+					<li><a href="ship_types.html">Ship Types</a></li>
+					<li><a href="ship_roles.html">Ship Roles</a></li>
+					<li><a href="weaponry.html">Weaponry</a></li>
+					<li><a href="naval_tactics.html">Naval Tactics</a></li>
+					<li class="feedback"><a href="">Feedback</a></li>
+				</ul>
+			</nav>
+			<main>
+				<h2>Feedback</h2>
+				<p>A form for the user to leave feedback, a review or to ask a question.</p>
+				<form action="../../cgi-bin/contact.pl" id="contact" method="post" enctype="application/x-www-form-urlencoded">
+					<fieldset>
+						<legend>Feedback Form</legend>
+						<!-- fieldset to get the users name, email and country -->
+						<fieldset>
+							<!-- Legend for fieldset -->
+							<legend class="alt">User's Information</legend>
+							
+							<!-- user's name and email -->
+							<div class="row_margin"><label class="label_width" for="name">Name:</label><input type="text" name="name" id="name"></div>
+							<div class="row_margin"><label class="label_width" for="email">Email:</label><input type="text" name="email" id="email"></div>
+							
+							<!--  users country origin -->
+							<div class="row_margin">
+								<label class="label_width">Country:</label>
+									<select name="question1">
+										<option selected="selected">Country...</option>
+											<optgroup label="Africa">
+												<option value="southAfrica">South Africa</option>
+												<option value="ethiopia">Ethiopia</option>
+												<option value="egypt">Egypt</option>
+												<option value="nigeria">Nigeria</option>
+												<option value="mali">Mali</option>
+												<option value="chad">Chad</option>
+												<option value="morroco">Morroco</option>
+											</optgroup>
+											<optgroup label="Asia">
+												<option value="australia">Australia</option>
+												<option value="japan">Japan</option>
+												<option value="korea">Korea</option>
+												<option value="china">China</option>
+												<option value="indonesia">Indonesia</option>
+												<option value="india">India</option>
+												<option value="philippines">Philippines</option>
+											</optgroup>
+											<optgroup label="Europe">
+												<option value="unitedKingdom">United Kingdom</option>
+												<option value="france">France</option>
+												<option value="spain">Spain</option>
+												<option value="germany">Germany</option>
+												<option value="poland">Poland</option>
+												<option value="denmark">Denmark</option>
+												<option value="sweden">Sweden</option>
+												<option value="russia">Russia</option>
+											</optgroup>
+											<optgroup label="North America">
+												<option value="canada">Canada</option>
+												<option value="mexico">Mexico</option>
+												<option value="unitedStates">United States</option>
+											</optgroup>
+											<optgroup label="South America">
+												<option value="argentina">Argentina</option>
+												<option value="brazil">Brazil</option>
+												<option value="peru">Peru</option>
+												<option value="venezuela ">Venezuela</option>
+											</optgroup>
+									</select>
+								
+							</div>
+						</fieldset>
+						
+						<!-- fieldset for user's username, password and confirm password input -->
+						<fieldset>
+							<legend class="alt">Create An Account</legend>
+							
+							<div class="row_margin">
+								<label class="label_width">Do you wish to create an account?</label>
+								<div class="group_float">
+									<label><input type="radio" name="question2" value="yes" checked="checked">Yes</label>
+									<br>
+									<label><input type="radio" name="question2" value="no">No</label>
+								</div>
+							</div>
+							<hr class="label">
+							<div class="row_margin"><label class="label_width" for="username">Username:</label><input type="text" name="username" id="username"></div>
+							<div class="row_margin"><label class="label_width" for="password">Password:</label><input type="password" name="password" id="password"></div>
+							<div class="row_margin"><label class="label_width" for="confirm">Confirm Password:</label><input type="password" name="confirm" id="confirm"></div>
+						</fieldset>
+						
+						<!-- fieldset for users feedback -->
+						<fieldset>
+							<!-- Legend for fieldset -->
+							<legend class="alt">Feedback</legend>
+							<!-- users text feedback type -->
+							<div class="row_margin">
+								<label class="label_width">Is this feedback, review or question?</label>
+								<div class="group_float">
+									<label><input type="radio" name="question3" value="feedback" checked="checked">Feedback</label>
+									<br>
+									<label><input type="radio" name="question3" value="review">Review</label>
+									<br>
+									<label><input type="radio" name="question3" value="question">Question</label>
+								</div>
+							</div>
+							<hr class="label">
+							<!-- comment text area -->
+							<div class="row_margin">
+								<label class="label_width" for="comment">Feedback, Review or Question:</label>
+								<textarea name="feedback_text" id="comment">Enter text here...</textarea>
+							</div>
+							<hr class="label">
+							<!-- subsribe checkbox -->
+							<div class="row_margin">
+								<label class="label_width">Subscribe for email updates:</label>
+								<input type="checkbox" name="question4" value="subscribe" checked="checked">
+							</div>
+							
+							
+						</fieldset>
+						<!-- submit and reset buttons -->
+						<div>
+								
+							<label><input id="submit" type="submit" name="submit" value="Submit Form"></label>
+							<label><input id="clear" type="reset" name="reset" value="Clear Form"></label>
+						</div>
+					</fieldset>
+				</form>
+				<h3>Directory</h3>
+					<div class="director">
+						<div id="hcard-Alexander-Harmon" class="vcard">
+							<span class="fn">Alexander Harmon</span>
+							<div class="org">NepiMwewa Studios</div>
+							<a class="email" href="mailto:alexander.harmon1814@email.cerrocoso.edu">alexander.harmon1814@email.cerrocoso.edu</a>
+							<div class="adr">
+								<div class="street-address">123 West Main st.</div>
+								<span class="locality">Furnace Creek</span>,
+								<abbr class="region" title="California">CA</abbr>,
+								<span class="postal-code">92328</span>,
+								<span class="country-name">United States of America</span>
+							</div>
+						</div>
+					</div>
+				<div class="clear"><a class="to_top" href="#top">Back to Top</a></div>
+			</main>
+			<footer>
+				<address>
+				NepiMwewa Studios<br>
+				Instagram: <a href ="https://www.instagram.com/nepimwewa/" title ="Alexander Harmon's Instagram (will open in new tab)" target="_blank">NepiMwewa</a><br>
+				Steam: <a href ="https://steamcommunity.com/id/NepiMwewa/" title ="Alexander Harmon's Steam profile (will open in new tab)" target="_blank">[TDA-OP]NepiMwewa</a><br>
+				Soundcloud: <a href ="https://soundcloud.com/nepimwewa" title ="Alexander Harmon's Soundcloud (will open in new tab)" target="_blank">NepiMwewa</a><br>
+				Email: <a href="mailto:alexander.harmon1814@email.cerrocoso.edu?Subject=Age%20of%20Sail%20Website" title ="Alexander Harmon's mail">Alexander Harmon</a>
+				</address>
+				<p class="copyright">Copyright &#169; 2019, Alexander Harmon. All rights reserved.</p>
+			</footer>
+		</div>
+     </body>
+</html> 

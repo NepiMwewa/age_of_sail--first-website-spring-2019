@@ -1,0 +1,50 @@
+	body{
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 16px;
+		margin-bottom: 16px;
+		min-width: 960px;
+	}
+	#wrapper{
+		padding: 8px;
+	}
+	header{
+		
+	}
+	main{
+		
+		width: 99%;
+		
+	}
+	footer{
+		clear: left;
+		margin-top: 8px;
+		text-align: center;	
+	}
+	h1{
+		margin-top: 16px;
+		margin-bottom: 16px;
+	}
+	form{
+		margin-bottom: 8px;
+	}
+	div.two_column{
+		-webkit-column-count: 2; /* Chrome, Safari, Opera */
+		-moz-column-count: 2; /* Firefox */
+		column-count: 2;
+		-webkit-column-gap: 16px; /* Chrome, Safari, Opera */
+		-moz-column-gap: 16px; /* Firefox */
+		column-gap: 16px;
+	}
+	div.three_column{
+		-webkit-column-count: 3; /* Chrome, Safari, Opera */
+		-moz-column-count: 3; /* Firefox */
+		column-count: 3;
+		-webkit-column-gap: 16px; /* Chrome, Safari, Opera */
+		-moz-column-gap: 16px; /* Firefox */
+		column-gap: 16px;
+	}
+	div.terms{
+
+	}

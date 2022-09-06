@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+<title>Age of Sail Home Page</title>
+<link>http://students.webdev.emrjackson.com/c111/harmon/age_of_sail/ship_types.html</link>
+<description>There are many different types of ships and tactics used during the age of 
+sail era. So I will be mainly covering the ships, tactics and terms used from the mid 18th 
+to early 19th century. However, many of the tactics and terms used during this time period 
+are still in use today.</description>
+
+<item>
+<title>Ship Types</title>
+<link>http://students.webdev.emrjackson.com/c111/harmon/age_of_sail/ship_types.html</link>
+<author>alexander.harmon1814@email.cerrocoso.edu (Alexander Harmon)</author>
+<pubDate>Mon, 29 Apr 2019 12:00:00 PST</pubDate>
+<description>The Ship Rating System is a system at which the mighty British navy used to classify 
+ships by the amount of cannons that are on the ship. Each nation had its own rating system but they 
+were mostly all very similar to each other on how they ranked a ship. For this website I will be using 
+the british rating system.</description>
+</item>
+
+<item>
+<title>Ship Roles</title>
+<link>http://students.webdev.emrjackson.com/c111/harmon/age_of_sail/ship_roles.html</link>
+<author>alexander.harmon1814@email.cerrocoso.edu (Alexander Harmon)</author>
+<pubDate>Mon, 29 Apr 2019 12:00:00 PST</pubDate>
+<description>Every ship in the navy had a special role that it needed to do in order best serve its 
+					strengths and weaknesses. Generally new captains were placed on small unrated ships in order 
+					to gain experience before they moved up to commanding Frigates and only the top of the top 
+					were to captain the massive Ship of the lines (SoL)</description>
+</item>
+
+<item>
+<title>Naval Tactics</title>
+<link>http://students.webdev.emrjackson.com/c111/harmon/age_of_sail/naval_tactics.html</link>
+<author>alexander.harmon1814@email.cerrocoso.edu (Alexander Harmon)</author>
+<pubDate>Mon, 29 Apr 2019 12:00:00 PST</pubDate>
+<description>Unlike many think, the battles during the age of sail era were won by making the enemy unable 
+to fight by either demasting their ship or having the crew surrender. There were a few reasons for this but 
+for one, these ships were mainly made out of wood so actually sinking a warship made to float was no easy task, 
+wood floats after all. So instead making the crew surrender by either demasting or out maneuvering and gunning 
+the enemy was simply easier to achieve.
+
+However, there is another reason in which i talked about it briefly already in the ship roles page. Capturing 
+enemy ships was one of the most important thing for a captain to do. Of course surviving and not getting 
+captured was also very important. Capturing a ship would not only give a captain more favor with the admirality 
+but also bring him, his crew and his country wealth. It was not that rare for ships to be captured renamed and 
+refitted only for them to fight the enemy and be recaptured by the enemy.</description>
+</item>
+
+</channel>
+</rss>

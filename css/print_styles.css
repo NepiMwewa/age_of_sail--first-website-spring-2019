@@ -1,0 +1,156 @@
+body {
+		color: black;
+		background-color: white;
+		font-family: Arial, sans-serif;
+		font-size: 12pt;
+		width: auto;
+		margin-left: 72px;
+		margin-right: 72px;
+	}
+	/*column classes*/
+	
+	h1 {
+		font-family: algerian, impact, fantasy;
+		font-size: 18pt;
+		text-align: center;
+		letter-spacing: 3px;
+	}
+	h2 {
+		font-family: times, serif;
+		font-size: 16pt;
+		text-align: center;
+	}
+	h3 {
+		font-family: times, serif;
+		font-size: 14pt;
+		text-align: center;
+	}
+	h4 {
+		font-family: times, serif;
+	}
+	p {
+		line-height: 1.5em;
+	}
+	p.copyright{
+		font-size: 10pt;
+		font-style: oblique;
+		font-weight: lighter;
+	}
+	dd {
+		line-height: 1.5em;
+	}
+	dfn {
+		font-weight: bold;
+	}
+	blockquote{
+		margin-left: 18px;
+		margin-right: 8px;
+		padding-left: 4px;
+		border-style: solid;
+		border-width: 0px 0px 0px 2px;
+		border-color: black;
+	}
+	em {
+		font-style: italic;
+		font-weight: 600;
+	}
+	hr.label{
+		margin-left: 150px;
+		clear: left;
+		border-style: solid;
+		border-color: black;
+	}
+	img{
+		display: none;
+	}
+/*table*/
+	table{
+		border-style: solid;
+		border-width: 1px;
+		border-color: black;
+		border-spacing: 4px 4px;
+	}
+	th{
+		padding: 4px;
+		text-align: left;
+		empty-cells: hide;
+		border-style: solid;
+		border-width: 1px;
+		border-color: black;
+	}
+	th.leading{
+		text-align: center;
+		font-size: 14pt;
+	}
+	td.shipname{
+		font-style: italic;
+	}
+	td{
+		padding: 4px;
+		text-align: center;
+		empty-cells: show;
+		border-style: solid;
+		border-width: 0px 0px 1px 0px;
+		border-color: black;
+	}
+	/*end of table*/	
+/*form*/
+	legend {
+		padding: 8px;
+		font-size: 16pt;
+		border-style: solid;
+		border-width: 1px;
+		border-radius: 4px;
+	}
+	legend.alt{
+		padding: 4px;
+		font-size: 14pt;
+		border-radius: 8px;
+	}
+	input#submit,
+	input#clear{
+		display: none;
+	}
+	
+	/*end of form*/	
+/*links*/
+	a {
+		text-decoration: none;
+		color: black;
+	}
+/*header*/
+	header{
+		border-style: solid;
+		border-width: 1px;
+		border-color: black;
+	}
+	/*end of header*/
+/*nav*/
+	nav{
+		display: none;
+	}
+/*back to top link*/
+	a.to_top{
+		display: none;
+	}
+/*footer*/
+	address {
+		margin-top: 4px;
+		padding-bottom: 4px;
+		border-style: solid;
+		border-width: 1px 0px 1px 0px;
+		border-color: black;
+		font-size: 14pt;
+		font-style: oblique;
+		line-height: 1.6em;		
+	}
+	address>a{
+		font-size: 12pt;
+		font-style: normal;
+		padding: 4px;
+		border-style: solid;
+		border-width: 1px;
+		border-radius: 5px;
+		border-color: black;
+	}
+	/*end of footer*/
